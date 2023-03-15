@@ -30,6 +30,10 @@ a{
     color: #7F7F7F;
 }
 
+.blue{
+    color: #0061FF;
+}
+
 /* Header */
 
 nav{
@@ -114,4 +118,69 @@ position: relative;
     flex: 0 0 70%;
     min-width: 0;
     margin-bottom: -75px;
+}
+
+/* Main */
+
+/* Section_1 */
+
+h2{
+    font-size: 4rem;
+}
+
+.Business-plan{
+    margin-top: 130px;
+}
+
+.radio-button >*{
+    margin-top: 20px;
+    display: inline-block;
+    
+}
+
+
+._2{
+    margin-left: 4rem;
+}
+
+.Business-choose{
+    margin-top: 50px;
+    display: flex;
+    flex-wrap: wrap;
+    gap: 4rem;
+}
+
+.choice{
+    border: 1px solid #7F7F7F;
+    flex: 0 0 calc(100% / 3 - 4rem);
+}
+
+.quantity{
+    text-align: center;
+    padding: 0.5rem;
+}
+
+.info-choice{
+    display: flex;
+    flex-direction: column;
+    gap: 2rem;
+    padding: 2rem;
+}
+
+.row{
+    height: 2px;
+    width: 20%;
+    margin-top: 20px;
+    background-color: #7F7F7F;
+}
+
+.Enterprise-team{
+    flex: 0 0 100%;
+}
+
+.sales-office{
+    display: flex;
+    justify-content: space-between;
+    align-items: baseline;
+    margin-right: 2rem;
 }
