@@ -69,6 +69,10 @@ nav{
     padding: 0.5em 0.7em;
 }
 
+.download{
+    color: black;
+}
+
 /* Jumbo */
 
 .jumbo{
@@ -122,22 +126,22 @@ position: relative;
 
 /* Main */
 
-/* Section_1 */
+/* Business sect */
+
+section, footer{
+    margin-top: 150px;
+}
 
 h2{
-    font-size: 4rem;
+    font-size: 3rem;
 }
 
-.Business-plan{
-    margin-top: 130px;
-}
+
 
 .radio-button >*{
     margin-top: 20px;
     display: inline-block;
-    
 }
-
 
 ._2{
     margin-left: 4rem;
@@ -147,10 +151,10 @@ h2{
     margin-top: 50px;
     display: flex;
     flex-wrap: wrap;
-    gap: 4rem;
+    gap: 6rem;
 }
 
-.choice{
+.info-choice{
     border: 1px solid #7F7F7F;
     flex: 0 0 calc(100% / 3 - 4rem);
 }
@@ -160,11 +164,11 @@ h2{
     padding: 0.5rem;
 }
 
-.info-choice{
+.choice{
     display: flex;
     flex-direction: column;
     gap: 2rem;
-    padding: 2rem;
+    padding: 1.5rem;
 }
 
 .row{
@@ -172,6 +176,11 @@ h2{
     width: 20%;
     margin-top: 20px;
     background-color: #7F7F7F;
+}
+
+.functions{
+    display: flex;
+    gap: 0.5rem;
 }
 
 .Enterprise-team{
@@ -183,4 +192,183 @@ h2{
     justify-content: space-between;
     align-items: baseline;
     margin-right: 2rem;
+}
+
+/* Partnership sect */
+
+.Partnership{
+    display: flex;
+    gap: 4rem;
+}
+
+.partner-img{
+    flex: 0 0 70%;
+}
+
+.partner-img img{
+    min-width: 0;
+    width: 100%;
+}
+
+.partner-text{
+    flex: 0 0 calc(100% - 70% - 4rem);
+}
+
+.partner-text h3{
+    font-size: 1.5rem;
+}
+
+.partner-text .btn{
+    border: 1px solid black;
+    margin-right: 8rem;
+    background-color: white;
+}
+
+/* Operation sect */
+
+.Cards{
+    display: flex;
+    flex-wrap: wrap;
+    gap: 6rem;
+}
+
+.container img{
+    min-width: 0;
+    width: 100%;
+}
+
+.info-card{
+    flex: 0 0 calc(100% / 3 - 4rem);
+}
+
+/* Companies sect */
+
+.Companies{
+    display: flex;
+}
+
+.box{
+    flex: 0 0 calc(100% / 3);
+}
+
+.companies{
+    display: flex;
+    flex-wrap: wrap;
+}
+
+.small-box{
+    flex: 0 0 calc(100% / 2);
+    display: flex;
+    padding: 3rem;
+    height: 230px;
+}
+.small-box img{
+    min-width: 0;
+    width: 100%;
+}
+
+.Companies .text{
+    background-color: #F5F5F5;
+}
+
+.change-colour{
+    fill: #D5001F;
+}
+/* small-box bkgr-colours */
+
+.n1{
+    background-color: #A2D39B; 
+}
+
+.n2{
+    background-color: #61082B;
+}
+
+.n3{
+    background-color: #0093CE;
+}
+
+.n4{
+    background-color: #FF1C1C;
+}
+
+.n5{
+    background-color: #D5001F;
+}
+
+.n6{
+    background-color: #B4D0E7;
+}
+
+.n7{
+    background-color: #0D2481;
+}
+
+.n8{
+    background-color: #FFD830;
+}
+
+
+
+/* Free-trial sect */
+
+.Free-trial{
+    margin-top: 0;
+    background-color: #B4D0E7;
+}
+
+.starting-trial{
+    display: flex;
+    justify-content: space-between;
+    align-items: baseline;
+    padding: 5rem;
+}
+
+.starting-trial .btn{
+    background-color: white;
+}
+
+/* Questions sect */
+
+.Questions h2{
+    margin-bottom: 4rem;
+}
+
+
+.popular-question{
+    display: flex;
+    justify-content: space-between;
+    border-top: 2px solid black;
+    padding: 2rem;
+}
+
+/* Footer */
+
+footer{
+    background-color: black;
+}
+
+.footer-top{
+    display: flex;
+    flex-wrap: wrap;
+    gap: 3.7rem;
+}
+
+.column{
+    flex: 0 0 calc(100% / 5 - 3rem);
+    margin-top: 5rem;
+}
+
+li{
+    list-style: none;
+    padding: 0.5rem 0;
+}
+
+.footer-bottom{
+    width: 100%;
+    
+}
+
+.lang{
+    margin: 2rem 0;
 }
